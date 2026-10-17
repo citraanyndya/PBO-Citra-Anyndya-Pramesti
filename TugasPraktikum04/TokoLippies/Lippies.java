@@ -13,16 +13,24 @@ public class Lippies {
         this.harga = harga;
     }
 
-    public double getHarga() {
-        return harga;
-    }
-
     public String getShadeLippies() {
         return shadeLippies;
     }
 
+    public void setShadeLippies(String shadeLippies) {
+        this.shadeLippies = shadeLippies;
+    }
+
     public String getJenisLippies() {
         return jenisLippies;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
     }
 
     public void tampilkanInfoLip() {

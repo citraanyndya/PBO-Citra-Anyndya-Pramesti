@@ -16,5 +16,7 @@ public class RumahSakitDemo {
 
         Pasien pasien2 = new Pasien("997744", "Yenny Anggraeni");
         System.out.println(pasien2.getInfo());
+
+        System.out.println(ani.getNama());
     }    
 }

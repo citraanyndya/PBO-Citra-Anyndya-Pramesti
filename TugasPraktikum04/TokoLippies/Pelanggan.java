@@ -15,8 +15,8 @@ public class Pelanggan {
         return nama;
     }
 
-    public String getNoTelp() {
-        return noTelp;
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
     public void tampilkanInfo() {

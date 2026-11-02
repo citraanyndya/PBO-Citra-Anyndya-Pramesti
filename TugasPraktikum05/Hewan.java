@@ -1,6 +1,6 @@
 package TugasPraktikum05;
 
-public class Hewan {
+public abstract class Hewan {
     public int jumlahKaki;
     public boolean isBerbulu;
     public boolean jenisKelamin;

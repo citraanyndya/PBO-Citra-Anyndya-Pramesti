@@ -12,10 +12,4 @@ public class Ayam extends Hewan {
     public void berkokok() {
         System.out.println("Ayam berkokok: Kukuruyukk petok petok");
     }
-
-    @Override
-    public void tampilInfo() {
-        System.out.println("Informasi Mengenai Ayam");
-        super.tampilInfo();
-    }
 }

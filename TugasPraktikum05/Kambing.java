@@ -12,11 +12,4 @@ public class Kambing extends Hewan {
         super(jumlahKaki, isBerbulu, jenisKelamin);
         this.isBertanduk = isBertanduk;
     }
-
-    @Override
-    public void tampilInfo() {
-        System.out.println("Informasi Mengenai Kambing");
-        super.tampilInfo();
-        System.out.println("Apakah Bertanduk: " + (isBertanduk ? "Ya" : "Tidak"));
-    }
 }
